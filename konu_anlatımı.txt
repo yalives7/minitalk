@@ -1,0 +1,8 @@
+signal fonksiyonun aslında bir sinyal geldiğinde buna nasıl tepki vereceğimizi belirliyor 
+sighandler_t signal(int signum, sighandler_t handler);
+ int signum  signalin numarasını verir
+ hadlersa  bir sinyal geldiğinde çalışacak olan fonksiyonu belirtir.
+
+ #include <signal.h>
+ kullanmak için tabiki bunu dahil etmen gerekiyor
+ 
